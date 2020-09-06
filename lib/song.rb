@@ -38,11 +38,9 @@ class Song
   end
   
   def self.alphabetical 
-    names = []
     @@all.each do |song|
-      names << song.name
+      song.name.sort
     end
-    names.sort
   end
 
 
