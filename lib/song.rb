@@ -17,7 +17,7 @@ class Song
   def Song.new_by_name("song_name")
     song_name = Song.new 
     binding.pry
-    
+  end
   end
 
 end
