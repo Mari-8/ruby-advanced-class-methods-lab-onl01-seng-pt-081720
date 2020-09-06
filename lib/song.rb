@@ -14,10 +14,10 @@ class Song
     @@all << Song.new 
   end
   
-  def Song.new_by_name("song_name")
+  def Song.new_by_name(song_name)
     song_name = Song.new 
     binding.pry
-  end
+  
   end
 
 end
