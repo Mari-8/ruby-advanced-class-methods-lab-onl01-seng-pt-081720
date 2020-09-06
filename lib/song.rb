@@ -10,11 +10,11 @@ class Song
     self.class.all << self
   end
   
-  def Song.create
+  def self.create
     @@all << Song.new 
   end
   
-  def Song.new_by_name(song_name)
+  def self.new_by_name(song_name)
     Song.new 
     Song.name = song_name
     binding.pry
