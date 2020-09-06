@@ -30,12 +30,6 @@ class Song
   end
   
   def self.find_by_name(name)
-      i = 0 
-      if i < @@all.length 
-        @@all.include?(name)
-      else 
-        puts "nutn"
-      end
-   
-    end
+    @@all.detect(name)
+    name
 end
