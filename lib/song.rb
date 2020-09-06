@@ -32,4 +32,5 @@ class Song
   def self.find_by_name(name)
     @@all.detect(name)
     name
+  end
 end
