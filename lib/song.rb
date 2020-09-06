@@ -45,7 +45,6 @@ class Song
     names = []
     @@all.each do |song|
       names << song.name
-      binding.pry
     end
     names.sort
   end
