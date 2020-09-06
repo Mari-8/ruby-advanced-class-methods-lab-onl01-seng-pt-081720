@@ -48,6 +48,9 @@ class Song
      song.artist_name = split_filename[0]
      song 
    end
+   
+   def self.create_from_filename 
+     split_filename = 
 
 
 end
