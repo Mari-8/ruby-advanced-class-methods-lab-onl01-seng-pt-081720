@@ -31,6 +31,6 @@ class Song
   
   def self.find_by_name(name)
     self.each do |names|
-      names.include?(name)
+      names.find(name)
     end
 end
