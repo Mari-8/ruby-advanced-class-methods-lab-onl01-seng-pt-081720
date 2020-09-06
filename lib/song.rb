@@ -39,8 +39,11 @@ class Song
   
   def self.alphabetical 
     @@all.sort{ |a,b| a.name <=> b.name}
-    
-  end
+   end
+   
+   def self.new_from_filename(filename)
+     split_filename = filename.slice(0, filename.length-4).split()
+   end
 
 
 end
