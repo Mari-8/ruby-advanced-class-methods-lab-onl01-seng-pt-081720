@@ -33,4 +33,5 @@ class Song
     self.each do |names|
       names.find(name)
     end
+  end
 end
